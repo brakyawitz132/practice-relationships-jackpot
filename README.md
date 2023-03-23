@@ -91,7 +91,7 @@ Write the following methods in the classes in the files provided. Feel free to b
 #### Gambler
 
 - `Gambler has_bidded(dealer)`
-  - returns `True` if the `Gambler` has made a bid with this `Movie` (if there is a `Bid` instance for this `Gambler` that exists  with the `Dealer`), returns `False` otherwise
+  - returns `True` if the `Gambler` has made a bid with this `Dealer` (if there is a `Bid` instance for this `Gambler` that exists  with the `Dealer`), returns `False` otherwise
 - `Gambler make_bid(dealer, amount)`
   - a `Dealer` instance and an amount (float) are passed in as arguments
   - this method should create a new `Bid` instance and attach it to both the `Gambler` instance and the `Dealer` instance
